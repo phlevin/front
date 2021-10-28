@@ -1,0 +1,124 @@
+body {
+    background-color: #001134;
+    color: #FFFFFF;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #FFFFFF;    
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    column-gap: 30px;
+    text-decoration: none;
+    
+}
+
+.header__link:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__link:active{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    column-gap: 30px;
+    text-decoration: none;
+}  
+
+/* :link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+:visited{
+    color: #FFFFFF;
+    text-decoration: none; */
+/* } */
+
+/*li {
+    margin-right: 30px;
+}
+
+li:last-child{
+    margin-right: 0;
+} */
+
+.header__container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 125px;
+    box-sizing: border-box;
+
+}
+
+.main__container{
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 125px;
+    box-sizing: border-box;
+}
+
+.footer__container{
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 125px;
+    box-sizing: border-box;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    margin: top;
+/*    position: fixed;
+    padding: 20px;
+    top: 0;
+    background-color: #001134;*/
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+header{
+    background-image: url("BG1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.main__managers {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    column-gap: 30px;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0;
+}
+
+.main__members {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    column-gap: 30px;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0;
+}
